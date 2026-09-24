@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Portfolio | sc2873-arch</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a202c;
+            background-color: #f7fafc;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        header {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #1a365d;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #4a5568;
+        }
+        section {
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #2b6cb0;
+            border-bottom: 1px solid #edf2f7;
+            padding-bottom: 5px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #ebf8ff;
+            color: #2b6cb0;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid #bee3f8;
+        }
+        .project-card {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .project-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #2d3748;
+        }
+        .project-card p {
+            color: #4a5568;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+        .project-link {
+            display: inline-block;
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #718096;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Rubric: Personal Statement (One-sentence introduction) -->
+        <header>
+            <h1>sc2873-arch</h1>
+            <p class="tagline">Driven Finance major and team leader passionate about Venture Capital, Real Estate, and Asset Management, combining quantitative analysis with strong public speaking and strategic vision.</p>
+        </header>
+
+        <!-- Rubric: Skills Showcase -->
+        <section>
+            <h2>Skills & Core Competencies</h2>
+            <ul class="skills-list">
+                <li>Venture Capital & Asset Management</li>
+                <li>Python & Financial Analysis</li>
+                <li>MySQL Database Queries</li>
+                <li>Microsoft Excel</li>
+                <li>Team Leadership & Public Speaking</li>
+                <li>Canva Visual Design</li>
+            </ul>
+        </section>
+
+        <!-- Rubric: Projects Section (3 Projects) -->
+        <section>
+            <h2>Featured Experience & Projects</h2>
+            
+            <div class="project-card">
+                <h3>Intern Appreciation Toolkit — Jewish Federation of North America</h3>
+                <p>Designed and launched an nationwide Intern Appreciation Toolkit for National Intern Day, coordinating deliverables and visual assets across teams using Canva.</p>
+                <a href="https://github.com/sc2873-arch/sc2873-arch.github.io" class="project-link" target="_blank">View Project Overview &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Procter & Gamble Strategic Deliverable — TAMID Group</h3>
+                <p>Led a student team consulting initiative for Procter & Gamble through TAMID, producing quantitative market research and strategic brand recommendations.</p>
+                <a href="https://github.com/sc2873-arch/sc2873-arch.github.io" class="project-link" target="_blank">View Project Details &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Quantitative Financial Analysis Sandbox</h3>
+                <p>Exploratory analytics environment leveraging Python and MySQL queries to analyze data trends, financial metrics, and asset performance models.</p>
+                <a href="https://github.com/sc2873-arch/sc2873-arch.github.io" class="project-link" target="_blank">View Code Repository &rarr;</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 sc2873-arch. Hosted on GitHub Pages.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
