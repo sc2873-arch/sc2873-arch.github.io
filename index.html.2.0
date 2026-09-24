@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | sc2873-arch</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #f6f8fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e1e4e8;
+        }
+        header {
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #0366d6;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #586069;
+        }
+        section {
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #24292e;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 5px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #f1f8ff;
+            color: #0366d6;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid #c8e1ff;
+        }
+        .project-card {
+            background: #fafbfc;
+            border: 1px solid #e1e4e8;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .project-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .project-card p {
+            color: #586069;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+        .project-link {
+            display: inline-block;
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #6a737d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Rubric Item: Personal Statement (One-sentence introduction) -->
+        <header>
+            <h1>sc2873-arch</h1>
+            <p class="tagline">I am an aspiring web developer and architecture student focused on designing functional, user-friendly digital experiences.</p>
+        </header>
+
+        <!-- Rubric Item: Skills Showcase -->
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+                <li>Problem Solving</li>
+                <li>Project Management</li>
+            </ul>
+        </section>
+
+        <!-- Rubric Item: Projects Section (2-3 Projects) -->
+        <section>
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A clean, responsive personal website built from scratch using HTML and CSS to display my professional background and personal projects.</p>
+                <a href="https://github.com/sc2873-arch/sc2873-arch.github.io" class="project-link" target="_blank">View Project Repository &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Design & Architecture Showcase</h3>
+                <p>A collection of structural design layouts and digital mockups created to explore spatial design and modern web standards.</p>
+                <a href="https://github.com/sc2873-arch" class="project-link" target="_blank">View GitHub Profile &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Interactive Web Sandbox</h3>
+                <p>An exploratory coding environment used for testing custom layout components, CSS Flexbox techniques, and browser styling rules.</p>
+                <a href="https://github.com/sc2873-arch" class="project-link" target="_blank">View Code Examples &rarr;</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 sc2873-arch. Built with HTML & CSS.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
